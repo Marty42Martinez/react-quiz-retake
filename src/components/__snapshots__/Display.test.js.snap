@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component renders a Display 1`] = `
+<section
+  className="Display"
+>
+  <p>
+    hello
+  </p>
+  <img
+    src="img.jpg"
+  />
+  <p>
+    bye
+  </p>
+</section>
+`;
