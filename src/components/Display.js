@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Display.css';
 
 function Display({ headerText, footerText, image }) {
-  const style = { };
   return (
-    <section>
+    <section className={styles.Display}>
       <p>{headerText}</p>
       <img src={image} />
       <p>{footerText}</p>
