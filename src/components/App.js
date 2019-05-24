@@ -1,4 +1,5 @@
 import React from 'react';
+import Meme from '../containers/Meme';
 
 export default function App() {
 
@@ -6,6 +7,7 @@ export default function App() {
     <>
       <h1>Hello Developer</h1>
       <h2>Lettuce make some spicy Memes</h2>
+      <Meme />
     </>
   );
 }
