@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meme container test renders a Meme 1`] = `
+<Fragment>
+  <section
+    className="Inputs"
+  >
+    <TextSelector
+      handleChange={[Function]}
+      name="headerText"
+      text=""
+    />
+    <TextSelector
+      handleChange={[Function]}
+      name="image"
+      text=""
+    />
+    <TextSelector
+      handleChange={[Function]}
+      name="footerText"
+      text=""
+    />
+  </section>
+  <Display
+    footerText=""
+    headerText=""
+    image=""
+  />
+</Fragment>
+`;
